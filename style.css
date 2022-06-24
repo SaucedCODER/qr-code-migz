@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding:0;
+  font-family:calibri;
+}
+img{
+  max-width: 300px;
+  border-radius: 3vmax;
+}
+main{
+background: rgb(199, 204, 247);
+ height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section {
+  text-align: center;
+  padding: 1em;
+  background-color: white;
+  border-radius:2vmax;
+  height: 80%;
+  flex-basis: 400px;
+  box-shadow: 1px 1px 10px rgb(119, 116, 116);
+  
+}
+main section div{
+  width: 90%;
+  margin: auto;
+  padding: .5rem;
+}
+main section div h2{
+  font-weight:bolder;
+  font-size: 1.8rem;
+  color: rgb(7, 7, 51);
+}
+main section div p{
+  margin: 0 2rem;
+  opacity: .7;
+  font-weight: bold;
+}
+
+
